@@ -1,0 +1,13 @@
+drwxr-xr-x    6 p24l3b93   p24l3b93         4096 Mar 26 05:38 .
+drwxr-xr-x    8 p24l3b93   p24l3b93         4096 Mar 26 05:39 ..
+-rw-r--r--    1 p24l3b93   p24l3b93          500 Mar 26 05:38 CHANGELOG.TXT
+-rw-r--r--    1 p24l3b93   p24l3b93         3274 Mar 26 05:38 CholeskyDecomposition.php
+-rw-r--r--    1 p24l3b93   p24l3b93        22708 Mar 26 05:38 EigenvalueDecomposition.php
+-rw-r--r--    1 p24l3b93   p24l3b93         6105 Mar 26 05:38 LUDecomposition.php
+-rw-r--r--    1 p24l3b93   p24l3b93        28846 Mar 26 05:38 Matrix.php
+-rw-r--r--    1 p24l3b93   p24l3b93         5732 Mar 26 05:38 QRDecomposition.php
+-rw-r--r--    1 p24l3b93   p24l3b93        13005 Mar 26 05:38 SingularValueDecomposition.php
+drwxr-xr-x    3 p24l3b93   p24l3b93         4096 Mar 26 05:38 docs
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:38 examples
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:38 tests
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:38 utils

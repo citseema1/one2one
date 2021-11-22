@@ -1,0 +1,11 @@
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:38 .
+drwxr-xr-x    6 p24l3b93   p24l3b93         4096 Mar 26 05:38 ..
+-rw-r--r--    1 p24l3b93   p24l3b93         2030 Mar 26 05:38 LMQuadTest.php
+-rw-r--r--    1 p24l3b93   p24l3b93         1305 Mar 26 05:38 LagrangeInterpolation.php
+-rw-r--r--    1 p24l3b93   p24l3b93         1420 Mar 26 05:38 LagrangeInterpolation2.php
+-rw-r--r--    1 p24l3b93   p24l3b93         5216 Mar 26 05:38 LevenbergMarquardt.php
+-rw-r--r--    1 p24l3b93   p24l3b93         4495 Mar 26 05:38 MagicSquareExample.php
+-rw-r--r--    1 p24l3b93   p24l3b93        55778 Mar 26 05:38 Stats.php
+-rw-r--r--    1 p24l3b93   p24l3b93         6781 Mar 26 05:38 benchmark.php
+-rw-r--r--    1 p24l3b93   p24l3b93         1814 Mar 26 05:38 polyfit.php
+-rw-r--r--    1 p24l3b93   p24l3b93         1476 Mar 26 05:38 tile.php

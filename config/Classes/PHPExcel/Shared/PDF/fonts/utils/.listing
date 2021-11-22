@@ -1,0 +1,13 @@
+drwxr-xr-x    4 p24l3b93   p24l3b93         4096 Mar 26 05:39 .
+drwxr-xr-x    5 p24l3b93   p24l3b93        12288 Mar 26 05:39 ..
+-rw-r--r--    1 p24l3b93   p24l3b93         7495 Mar 26 05:39 README.TXT
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:39 enc
+-rw-r--r--    1 p24l3b93   p24l3b93       455680 Mar 26 05:39 freetype6.dll
+-rw-r--r--    1 p24l3b93   p24l3b93         2519 Mar 26 05:39 makeallttffonts.php
+-rw-r--r--    1 p24l3b93   p24l3b93        16415 Mar 26 05:39 makefont.php
+-rw-r--r--    1 p24l3b93   p24l3b93        20031 Mar 26 05:39 pfm2afm
+-rw-r--r--    1 p24l3b93   p24l3b93        22891 Mar 26 05:39 pfm2afm.exe
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:39 src
+-rw-r--r--    1 p24l3b93   p24l3b93       157374 Mar 26 05:39 ttf2ufm
+-rw-r--r--    1 p24l3b93   p24l3b93       184320 Mar 26 05:39 ttf2ufm.exe
+-rw-r--r--    1 p24l3b93   p24l3b93        75264 Mar 26 05:39 zlib1.dll

@@ -1,0 +1,8 @@
+drwxr-xr-x    2 p24l3b93   p24l3b93         4096 Mar 26 05:38 .
+drwxr-xr-x   13 p24l3b93   p24l3b93         4096 Mar 26 05:39 ..
+-rw-r--r--    1 p24l3b93   p24l3b93         5122 Mar 26 05:38 AdvancedValueBinder.php
+-rw-r--r--    1 p24l3b93   p24l3b93         3154 Mar 26 05:38 DataType.php
+-rw-r--r--    1 p24l3b93   p24l3b93         9080 Mar 26 05:38 DataValidation.php
+-rw-r--r--    1 p24l3b93   p24l3b93         3062 Mar 26 05:38 DefaultValueBinder.php
+-rw-r--r--    1 p24l3b93   p24l3b93         2743 Mar 26 05:38 Hyperlink.php
+-rw-r--r--    1 p24l3b93   p24l3b93         1505 Mar 26 05:38 IValueBinder.php

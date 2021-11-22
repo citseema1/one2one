@@ -1,0 +1,265 @@
+body {
+background-color:#f1f0f6;
+font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	
+}
+input{
+/*border:none;*/
+}
+
+b{
+	font-size: 20px;
+	font-weight: bold;
+	}
+	strong {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+h1{
+font-size:20px;
+}
+h2{
+font-size:20px;
+}
+
+section {
+   
+    font-size:14px;
+    text-align: left;
+    width: 100%;
+	/*padding-bottom:250px;*/
+}
+
+	i{
+	font-size: 14px;
+	}
+	
+
+	ul{
+	margin: 0px;
+	padding: 0px;
+	}
+	li
+	{
+	
+	}
+	.clear {
+	clear: both;
+}
+#user_maindiv {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#user_headerdiv {
+	height: 150px;
+	width: 100%;
+	padding-bottom: 10px;
+	background:url(../images/top.jpg) ;
+	padding-top: 10px;
+}
+#user_header_leftdiv {
+	float: left;
+	height: 0px;
+	width: 200px;
+}
+#user_header_textdiv{
+float: none;
+	height: 0px;
+	width: 920px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto
+
+}
+
+#user_header_rightdiv {
+	float: right;
+	height: 0px;
+	width: 200px;
+	color: #0db3cb;
+	text-align: center;
+}
+#user_user_menudiv{
+background:url(../images/menubg3.png) no-repeat;
+width:430px;
+height: 96px;
+margin-left: 230px;
+}
+
+#user_menudiv {
+	/*background:url(../images/menubg.png) no-repeat;*/
+	   background: url("../images/footer_bg1.png") no-repeat;
+    bottom: 0;
+    height: 170px;
+    left: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    width: 1024px;
+    z-index: -2;
+	
+}
+.link{
+margin-right:20px;
+
+}
+.error{
+color:red;
+}
+/*.user_sf-menu {  display: inline;
+    float: left;
+    left: 185px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px; } 
+.user_sf-menu li{
+	display:inline;
+	position:relative;
+	float:left;
+	margin-right:5px;
+	
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0px;
+}
+.user_sf-menu .last{margin-right:0}
+.user_sf-menu li a{
+	 display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height: 90px;
+    line-height: 16px;
+    margin-left: 3px;
+    margin-top: 12px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 135px;
+	color:#FFFFFF;
+
+} 
+.user_sf-menu li:hover a {color:#3c7a98;  text-decoration:none; background:url(../images/bg_menu-act.png) top left no-repeat;  }
+.user_sf-menu li.current a{ color:#0f6b7e; text-decoration:none; background:url(../images/bg_menu-act.png) top left no-repeat; }
+
+.user_sf-menu ul { position:absolute; top:-999em; width:10em; line-height:1.0; }
+.user_sf-menu li:hover ul, .sf-menu li.sfHover ul { top:29px; z-index:99;}
+
+
+/*** DEMO SKIN 
+.user_sf-menu ul {	width:192px;  background:#fff; /*border-style: solid; border-radius:11px; -moz-border-radius: 11px; -webkit-border-radius: 11px; padding:10px 0px 10px 0px}
+.user_sf-menu ul li {  text-align:left; padding:0;  z-index:9; position:relative; background:none; }
+.user_sf-menu ul li a {line-height:45px; height:45px; text-align:left; width:162px; font-size:12px; color:#3c7a98; text-transform:uppercase; z-index:9; background:#fff !important; padding:0 0 0 30px; text-shadow:none}
+.user_sf-menu ul li:hover a { color:#fff; background:#476a72 !important; }
+
+.user_sf-menu ul ul {	width:192px;  background:#fff;border-style: solid; border-radius:11px; -moz-border-radius: 11px; -webkit-border-radius: 11px; padding:10px 0px 10px 0px}
+.user_sf-menu ul ul li {  text-align:left; padding:0;  z-index:9; position:relative; background:none; }
+.user_sf-menu li li.sfHover ul li a {line-height:27px; text-align:left; width:162px; font-size:12px; color:#3c7a98; text-transform:uppercase; z-index:9; background:#fff !important; padding:0 0 0 30px}
+.user_sf-menu li li.sfHover ul li:hover a { color:#fff; background:#178daa !important;  }
+
+.user_sf-menu li:hover, .sf-menu li.sfHover,
+.user_sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {	 position:relative }
+
+.user_sf-menu li:hover ul,
+.user_sf-menu li.sfHover ul {left: 0; top:80px; /* match top ul list item height 	z-index: 99;}
+.user_sf-menu li:hover ul ul,
+.user_sf-menu li.sfHover ul ul {	left:192px;	top:0; /* match top ul list item heightz-index: 99; margin-top:-10px;}
+				
+ul.user_sf-menu li:hover li ul,
+ul.user_sf-menu li.sfHover li ul { top:-999em;}
+ul.user_sf-menu li li:hover ul,
+ul.user_sf-menu li li.sfHover ul {  /* match ul width  top:0;}
+ul.user_sf-menu li li:hover li ul,
+ul.user_sf-menu li li.sfHover li ul { top:-999em;}
+ul.user_sf-menu li li li:hover ul,
+ul.user_sf-menu li li li.sfHover ul { left:10em; /* match ul width  top:0;}
+
+.user_sf-sub-indicator {	position: absolute;	display:block;	right:10px;	width:10px;	height:10px; text-indent:-999em; overflow:hidden;}
+#user_contentdiv {
+	height: auto;
+	padding-left:10px;
+	padding-bottom:200px;
+	
+}
+#user_footerdiv {
+ background-color: #000000;
+    background-position: center top;
+    bottom: 0;
+    color: #C0DF1F;
+    font-size: 12px;
+    height: 60px;
+    line-height: 100px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+}*/
+
+#user_footerdiv {
+ background-color: #000000;
+    background-position: center top;
+    bottom: 0;
+    color: #C0DF1F;
+    font-size: 12px;
+    height: 60px;
+    line-height: 5;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+}
+.user_footermenu{
+   background: url("../images/footer_bg2.png") no-repeat scroll 0 0 transparent;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    width: 960px;
+
+
+}
+
+.user_footermenu ul {
+margin:0px;
+padding:0px;
+
+}
+.user_footermenu ul li{
+display:inline;
+float:left;
+  left: 185px;
+  display:inline;
+	position:relative;
+	float:left;
+	margin-right:5px;
+	
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0px;
+}
+.user_footermenu ul li a{
+	color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 90px;
+    line-height: 16px;
+    margin-left: 3px;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 135px;
+
+}
+.user_footermenu li:hover a {color:#3c7a98;  text-decoration:none; background:url(../images/bg_menu-act.png) top left no-repeat;  }
+.user_footermenu li.current a{ color:#0f6b7e; text-decoration:none; background:url(../images/bg_menu-act.png) top left no-repeat; }

@@ -1,0 +1,142 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6{ margin:0px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.text_size{
+ font-size:16px;
+ 	color:#173962;
+	font-weight:bold;
+	
+	}
+.succ{
+	float:right;
+	margin-right:10px;
+	margin-top:-50px;
+	font-size:12px;
+	color: #006600;
+	font-weight:bold;
+	
+}
+
+.report_page {
+    background-color: #178DAA;
+    border: medium none;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    text-decoration: none;
+	color:#fff;  
+}	
+.report_page:hover {
+	background-color:#cccccc;
+	color:#0080FF; 	
+	}
+.wraper{ width:990px; margin:0px auto; }
+.fl{ float:left;}
+.fr{ float:right;}
+.cl{ clear:both;}
+
+
+.bclr{ color:#0080FF;}
+.nbclr{ color:#173962;}
+.wtclr{ color:#FFF;}
+.bkclr{ color:#000;}
+
+
+.mt{ margin-top:49px;}
+
+.f20{ font-size:20px;}
+.f14{ font-size:14px;}
+.f12{ font-size:12px;}
+
+.fb{font-weight:bold;}
+
+
+#header {
+
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom:1px solid #ABABAB;
+/*	height:140px;*/
+}
+#inner_head{
+}
+#logo1{
+	font-size:18px;
+}
+#logo2{
+text-align:center;
+}
+#head_cont{
+	width:590px;
+}
+/*------------------------------Company img----------------------------------------*/
+#cmp_img{
+	background-color:#FFF;
+}
+.border_box{
+	border:1px solid #ABABAB;
+}
+/*--------------------------------------footer----------------------------*/
+#footer{
+	background-color:#000;
+}
+#footer_inner{
+	padding:10px 0px;
+}
+#event_sponsors{
+	padding:5px 10px;
+	background-color:#CCCDCD;
+}
+
+/*---------------------------------LoginForm--------------------------------------*/
+#loginForm_inner{
+	padding:70px 0px;
+	
+}
+#form_panel{
+	width:400px;
+	padding:20px;
+	margin-left:250px;
+	background-color:#818181;
+	
+}
+#fp_inner{
+	background-color:#FFF; s
+	font-size:12px;
+	color:#6C6C6C;
+	border-radius:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#login_head{
+	background-color:#;
+	padding-bottom:10px;
+	font-size:16px;
+	border-bottom:1px solid #ABABAB;
+}
+.textbox12{
+	width:250px;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	border:1px solid #C0C0C0;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+.button{
+	display:inline-block;
+	background-color:#818181;
+	background:url(../images/index.png);
+	color:#FFF;
+	width:80px;
+	line-height:30px;
+	text-align:center;
+	height:30px;
+	border:none;
+}
+.p20{ padding:20px;}
+.cmrl40{ margin-left:65px;}
+.bmarl{ margin-left:80px;}

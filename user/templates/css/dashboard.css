@@ -1,0 +1,110 @@
+.summaryRow {
+    margin-bottom: 35px;
+    box-shadow: 0px 0px 7px 2px #ccc;
+}
+.divBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.divBox p{
+	color: black;
+}
+.divBox ul{
+	padding-left: 15px;
+}
+.divBox li{
+	list-style: initial;
+}
+.myLabel {
+    /*text-align: center;*/
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    /*text-decoration: underline;*/
+    background-color: #4b77be; /*#54AD58;*/ /*#43B7E8;*/
+    color: white;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.taskStatusImg{
+	width: 15px;
+	border-radius: 10px;
+	vertical-align: sub;
+}
+.uncheckCls{
+	border: 1px solid red;
+}
+.editImg img{
+	vertical-align: baseline;
+	cursor: pointer;
+}
+.eyeImg img{
+	cursor: pointer;
+}
+
+.announcementIcon{
+	width: 35px;
+	vertical-align: bottom;
+}
+
+.dateCls {
+    color: gray;
+    font-size: 10px;
+    display: block;
+}
+.innerRow{
+	background-color: #43B7E8; /*gray;*/
+}
+.statisticsLabel{
+	margin-top: 10px;
+	color: white !important;
+	font-size: 16px;
+	margin-bottom:10px;
+}
+
+.loopItem {
+    max-height: 290px;
+    overflow-x: hidden;
+}
+
+.loopItem > div {
+    border-bottom: 1px solid #ccc;
+}
+
+.loopItem p {
+	margin-top: 10px;
+}
+
+.textCss{
+	color: #EA4642;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.schSummary {
+    color: black;
+}
+.schSummaryText{
+	display: block;
+}
+
+.dateLabelDiv{
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+
+.dateLoopItem {
+    margin-bottom: 30px;
+    background-color: lightgrey;
+    padding: 6px;
+    color: black;
+}
+
+.dateLoopItem p {
+    margin-bottom: 0px;
+	color: ghostwhite;
+	background-color: #EA4642; /*rgb(0,0,0,0.5);*/
+	display: inline;
+	padding: 3px 10px;
+}
